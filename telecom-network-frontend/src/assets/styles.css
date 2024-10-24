@@ -1,0 +1,109 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light background for contrast */
+    color: #333; /* Dark text for readability */
+    line-height: 1.6;
+}
+
+header {
+    background: #35424a; /* Dark header */
+    color: #ffffff; /* White text in the header */
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem; /* Large heading for the main title */
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px; /* Maximum width for larger screens */
+    margin: 20px auto; /* Center the container */
+    padding: 20px;
+    background: #ffffff; /* White background for main content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.node {
+    padding: 15px;
+    border: 1px solid #ccc; /* Light border for nodes */
+    border-radius: 5px; /* Slightly rounded corners */
+    margin-bottom: 10px; /* Space between nodes */
+    background: #e7f3fe; /* Light blue background for nodes */
+}
+
+.node.active {
+    border-color: #007bff; /* Blue border for active nodes */
+    background: #d1e7fd; /* Slightly darker background for active nodes */
+}
+
+.link {
+    padding: 10px;
+    border: 1px solid #ccc; /* Light border for links */
+    border-radius: 5px; /* Slightly rounded corners */
+    background: #f7f7f7; /* Light background for links */
+}
+
+.link.high-traffic {
+    border-color: #dc3545; /* Red border for high-traffic links */
+}
+
+.link.low-traffic {
+    border-color: #28a745; /* Green border for low-traffic links */
+}
+
+button {
+    background: #007bff; /* Blue background for buttons */
+    color: #fff; /* White text for buttons */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Padding for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background: #0056b3; /* Darker blue on hover */
+}
+
+form {
+    margin-bottom: 20px; /* Space below forms */
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Padding for inputs */
+    margin-top: 5px; /* Space above inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+input[type="submit"] {
+    background: #28a745; /* Green submit button */
+    color: white; /* White text for submit button */
+    border: none; /* Remove border */
+}
+
+input[type="submit"]:hover {
+    background: #218838; /* Darker green on hover */
+}
+
+footer {
+    text-align: center; /* Centered footer */
+    padding: 15px 0; /* Padding around footer */
+    background: #35424a; /* Dark footer */
+    color: #ffffff; /* White text in the footer */
+    margin-top: 20px; /* Space above footer */
+}
