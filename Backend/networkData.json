@@ -1,0 +1,11 @@
+{
+    "nodes": [
+        { "id": "A", "currentTraffic": 50 },
+        { "id": "B", "currentTraffic": 67 },
+        { "id": "C", "currentTraffic": 72}
+    ],
+    "links": [
+        { "source": "A", "destination": "B", "load": 78 },
+        { "source": "B", "destination": "C", "load": 26 }
+    ]
+}
